@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout (header) + GridLayout (module cards) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <TextView android:id="@+id/tvWelcome" style="@style/App.Title" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" android:padding="8dp"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnProfile"
+            style="@style/Widget.Material3.Button.TonalButton" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/profile"/>
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <GridLayout android:id="@+id/grid" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:columnCount="2"/>
+    </ScrollView>
+</LinearLayout>

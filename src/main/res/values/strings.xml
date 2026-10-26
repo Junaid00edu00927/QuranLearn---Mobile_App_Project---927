@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quran Learn</string>
+    <string name="tagline">Learn the last 10 Surahs of Para 30</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="login_title">Welcome back</string>
+    <string name="login">Login</string>
+    <string name="hint_user">Email or username</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm">Confirm password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="no_account">Don’t have an account? Register</string>
+    <string name="have_account">Already registered? Login</string>
+
+    <string name="register_title">Create account</string>
+    <string name="register">Register</string>
+    <string name="registered">Registration successful. Please login.</string>
+
+    <string name="forgot_title">Forgot password</string>
+    <string name="forgot_desc">Enter your email and we will send a recovery link.</string>
+    <string name="send_link">Send recovery link</string>
+    <string name="link_sent">Recovery link sent (simulated)</string>
+    <string name="back_login">Back to Login</string>
+
+    <string name="reset_title">Reset password</string>
+    <string name="reset_for">Set a new password for %1$s</string>
+    <string name="reset_btn">Reset password</string>
+    <string name="reset_done">Password updated. Please login.</string>
+
+    <string name="welcome">Welcome, %1$s</string>
+    <string name="profile">Profile</string>
+    <string name="opening">Opening %1$s…</string>
+    <string-array name="modules">
+        <item>Surahs 105–114</item>
+        <item>Transliteration</item>
+        <item>Translation</item>
+        <item>Bookmarks</item>
+        <item>Audio</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="profile_title">My profile</string>
+    <string name="logout">Logout</string>
+    <string name="logged_out">You have been logged out</string>
+
+    <string name="err_required">This field is required</string>
+    <string name="err_email">Enter a valid email address</string>
+    <string name="err_short">Use at least 6 characters</string>
+    <string name="err_mismatch">Passwords do not match</string>
+    <string name="err_invalid_login">Invalid username or password</string>
+    <string name="err_no_account">No account found with this email</string>
+</resources>
